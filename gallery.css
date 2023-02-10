@@ -1,0 +1,15 @@
+html {
+	scroll-behavior: smooth;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+width:50%;
+height:50%;
+align-items: center;
+margin: auto;
+padding: 5vh 0;
+}

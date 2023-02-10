@@ -1,0 +1,49 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3 {
+	color: orange;
+}
+
+.card {
+	margin-top: 12.5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+}
+
+.header {
+	height: 600px;
+	width: 1319px;
+	position: relative;
+	background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+	padding: 50% auto;
+}
+
+#bg-img {
+	height: 600px;
+	width: 1319px;
+	position: relative;
+	opacity: 0.5;
+}
+
+.btn {
+	display: flex;
+	flex-direction: column;
+}
